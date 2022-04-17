@@ -9,7 +9,7 @@ const Navbar = () => {
       </div>
       <div className="nav-lists ms-auto d-flex">
         <a href="">Support</a>
-        <a href="">Login</a>
+        <a href="/login">Login</a>
         <div className="btn-1 ">
           <a href="">Sign up free</a>
         </div>

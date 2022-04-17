@@ -67,6 +67,9 @@ h6 {
 .btn-1 a {
   padding: 0;
 }
+.nav-bg2 {
+  background: rgba(255, 255, 255, 0.5) !important;
+}
 /* ========navbar end========= */
 
 /* ========hero sec========= */
@@ -161,3 +164,115 @@ h6 {
   width: 90%;
 }
 /* ========hero sec end========= */
+
+/* ========login sec ========= */
+.login-text h4 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 55px;
+  color: #a60000;
+}
+.login-text p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
+  color: #ffffff;
+}
+.form-sec h2 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 49px;
+}
+.form-box {
+  width: 500px;
+}
+.form-box label {
+  width: 100%;
+  padding: 0.8rem 0;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.form-box input {
+  outline: none;
+  width: 100%;
+  background: #24242a;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 0.4em;
+  color: rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
+}
+.form-box input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.submit-btn {
+  font-size: 22px;
+  line-height: 28px;
+  color: #ffffff !important;
+  background: #a60000 !important;
+  border-radius: 3px;
+  border: 1px solid #a60000 !important;
+}
+.alt-text h5 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+}
+.alt-text h5 span {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+}
+.password-input span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0.8rem 0;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #a60000;
+}
+.upload-sec {
+  width: 45%;
+}
+.upload-sec p {
+  padding: 1rem;
+  background: #c4c4c4;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #2f2f37;
+}
+.upload-img {
+  width: fit-content;
+  padding: 1rem;
+  background: #44444b;
+  border-radius: 50%;
+}
+/* ========login sec end========= */
+
+/* ========side nav========= */
+.side-nav {
+  width: 238px;
+  height: 828px;
+  background: #24242a;
+  border-radius: 119px;
+}
+.side-nav-items {
+  padding-top: 3.8rem;
+}
+.nav-list {
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.8rem;
+}
+.nav-list a {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+/* ========side nav end========= */
