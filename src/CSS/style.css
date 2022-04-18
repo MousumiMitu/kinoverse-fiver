@@ -275,4 +275,74 @@ h6 {
   font-size: 18px;
   line-height: 20px;
 }
+.clicked-style {
+  background: rgba(255, 255, 255, 0.1);
+  position: relative;
+}
+.clicked-style::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  background: var(--theme-color--two);
+}
 /* ========side nav end========= */
+
+/* ========dashboard ========= */
+.content-sec {
+  width: calc(100% - 238px);
+  padding: 0 1.6rem;
+}
+.search-input input {
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 0.5rem;
+  padding-left: 2rem;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  outline: none;
+  border: none;
+}
+.search-input img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 1.1rem;
+  padding-top: 0.5rem;
+  width: 10%;
+}
+.user-icon h5 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+}
+.user-icon p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+.icon-items {
+  background: #24242a;
+  padding: 0.7rem;
+}
+.icon-items p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 0;
+}
+.icon-items span {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+}
+.icon-items-img {
+  border: 1px solid var(--theme-color--two);
+  padding: 5px 6px;
+}
+/* ========dashboard end========= */

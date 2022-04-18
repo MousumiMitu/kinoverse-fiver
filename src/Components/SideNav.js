@@ -14,7 +14,7 @@ const SideNav = () => {
       </div>
 
       <div className="side-nav-items">
-        <div className="d-flex nav-list">
+        <div className="d-flex nav-list clicked-style">
           <div>
             <img src={sideIcon1} alt="" />
           </div>
@@ -31,7 +31,7 @@ const SideNav = () => {
           </div>
         </div>
 
-        <div className="d-flex nav-list">
+        <div className="d-flex nav-list ">
           <div>
             <img src={sideIcon3} alt="" />
           </div>
